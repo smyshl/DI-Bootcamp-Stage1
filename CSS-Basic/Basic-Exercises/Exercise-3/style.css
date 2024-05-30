@@ -1,0 +1,16 @@
+.class_1, .class_2 {
+    font-size: 28px;
+    font-family: Helvetica, "Times New Roman", sans-serif;
+    /* border: grey 3px solid;
+    border-left: lightgrey 3px solid;
+    border-top: lightgrey 3px solid; */
+}
+
+.class_1 {
+    background-color: black;
+    color: white;
+}
+
+.class_2 {
+    background-color: yellow;
+}
