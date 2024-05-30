@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+div {
+    border: black 3px solid;
+}
+
+.row_1,
+.row_2 {
+    display: inline-block;
+    height: 300px;
+    width: 31%;
+    margin-left: 1%;
+    margin-bottom: 20px;
+}
+
+.heading {
+    background-color: green;
+    height: 200px;
+    width: 95.5%;
+    margin-bottom: 20px;
+    margin-left: 1%;
+}
+
+.row_1 {
+    border: none;
+}
+
+img {
+    width: 100%;
+    height: inherit;
+}
+
+.row_2.left {
+    background-color: orange;
+}
+
+.row_2.mid {
+    background-color: red;
+}
+
+.row_2.right {
+    background-color: blue;
+}
