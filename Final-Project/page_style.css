@@ -1,0 +1,131 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+#wrap {
+    /* background-color:aqua; */
+    /* margin-top: 5%; */
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-bottom: 5%; */
+    height:100vh;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    /* box-sizing: border-box; */
+    justify-content: space-between;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    }
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+
+}
+
+#upper_nav {
+    padding-top: 1vh;
+}
+
+#under_article_nav {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+
+* {
+    /* border: black 1px solid; */
+    }
+
+a {
+    text-decoration: none;
+    font-family: Roboto;
+    font-size: 1.3vw;
+    margin: auto;
+    padding: auto;
+}
+
+article{
+    text-align: center;
+    /* padding-top: 5vh; */
+    /* padding-bottom: 20vh; */
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-around; */
+}
+
+
+footer {
+    /* padding-top: 15vh; */
+    font-family: Roboto;
+    font-size: 0.7vw;
+}
+
+h1 {
+    font-family: "Montagu Slab";
+    font-size: 6vw;
+    margin: auto;
+}
+
+h2 {
+    font-family: "Montagu Slab";
+    font-size: 5vw;
+    margin: auto;
+}
+
+h3 {
+    font-family: "Montagu Slab";
+    font-size: 4vw;
+    margin: auto;
+}
+
+p {
+    font-family: "Montagu Slab";
+    font-size: 3vw;
+    margin-right: 2vw;
+}
+
+.about_me {
+    font-family: "Montagu Slab";
+    font-size: 2vw;
+    margin-right: 2vw;
+}
+
+.material-symbols-outlined {
+font-size: 2.5vw;
+}
+
+.who {
+    list-style-type:none;
+    font-family: "Montagu Slab";
+    font-size: 2vw;
+}
+
+.me {
+    list-style-type:none;
+    font-family: "Montagu Slab";
+    font-size: 1.3vw;
+    text-align: left;
+}
+
+img {
+    width: 40vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#me {
+    width: 10vw;
+}
+
+#me:hover{
+    width: 20vw;
+    transition:ease-in-out 1s}
+
+    #wrap_1 {
+        
+    }
